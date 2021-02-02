@@ -6,6 +6,6 @@ const assertEqual = function(actual, expected) {
     console.log("🛑🛑🛑" + `Assertation Failed: + ${actual} + "!==" + ${expected});
   }
 };
-
+console.log("Hello World")
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
