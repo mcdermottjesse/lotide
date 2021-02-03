@@ -27,58 +27,38 @@ const eqArrays = function (arr1, arr2) {
 }
 
 
-/*const middle = function(array) {
+const middle = function (array) {
 
-let midArr = 0;
-
-for(let i = 0; i < array.length; i++); {
-
- 
- midArr = array[Math.floor(array.length / 2)];
-
-}
-
- return midArr
-
-} */
-
-
-
-const middle = function(array) {
-  
   let num = [];
 
   if (array.length < 3) {
     return num
   }
 
-  else if(array.length % 2 === 1){
+  else if (array.length % 2 === 1) {
 
-    num = array[Math.floor((array.length-1)/2)];
+    num = array[Math.floor((array.length - 1) / 2)];
     return num
 
-} else if (array.length % 2 === 0){
-  num[0] = array[(array.length/2) - 1];
-  num[1] = array[array.length/2];
+  } else if (array.length % 2 === 0) {
+    num[0] = array[(array.length / 2) - 1];
+    num[1] = array[array.length / 2];
 
-  return num
-  
+    return num
 
-}
+
+  }
 
 };
 
 
 
-
-
-
-console.log(middle([1, 2, 3])); 
+console.log(middle([1, 2, 3]));
 console.log(middle([1, 2, 3, 4, 5]));
 
 
-console.log(middle([1, 2, 3, 4])) 
+console.log(middle([1, 2, 3, 4]))
 console.log(middle([1, 2, 3, 4, 5, 6]));
 
-console.log(middle([1])) 
-console.log(middle([1, 2])) 
+console.log(middle([1]));
+console.log(middle([1, 2]));
