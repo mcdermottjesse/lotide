@@ -1,20 +1,22 @@
 
 
-const assertEqual = function(actual, expected) {
+/*const assertEqual = function(actual, expected) {
 
   if (actual === expected) {
     console.log("✅✅✅" + `Assertation Passed: ${actual} === ${expected}`);
   } else if (actual !== expected) {
     console.log("🛑🛑🛑" + `Assertation Failed: ${actual} !== ${expected}`);
   }
-};
+};*/
 
 const tail = function(array) {
 let newArray = array.slice(1)
 return newArray
 };
 
+module.exports = tail;
 
+/*
 const words = ["Yo Yo", "Lighthouse", "Labs"]; //as we have not input tail here slice is not applied to our assertEqual function below
 tail(words) // no need to capture the return value since we are not checking it//can't check this anyway
 assertEqual(words.length, 3) //there are 3  array values associated with the assertEqual function, slice method not applied here
@@ -32,3 +34,4 @@ assertEqual(play.length, 3);
 assertEqual(play[0], "BBall");
 assertEqual(play[1], "Boxing");
 assertEqual(play[3], "MMA");
+*/
