@@ -13,18 +13,18 @@ const countLetters = require("./countLetters")
 const letterPositions = require("./letterPositions")
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countOnly: countOnly,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  map: map, 
-  takeUntil: takeUntil,
-  without: without,
-  countLetters: countLetters,
-  letterPositions: letterPositions
+  head,
+  tail,
+  middle,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  map,
+  takeUntil,
+  without,
+  countLetters,
+  letterPositions
 
 };
